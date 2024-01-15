@@ -12,8 +12,8 @@ export const createPayment = async (req, res) => {
     try {
         const snap = new midtransClient.Snap({
             isProduction: false,
-            serverKey: "SB-Mid-client-q-63Auv4qAa5qRWp",
-            clientKey: "SB-Mid-server-DNkHmcV4rij3kxbH_leojo2r",
+            serverKey: "",
+            clientKey: "",
         });
 
         const parameter = {
